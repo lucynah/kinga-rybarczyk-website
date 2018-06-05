@@ -3,3 +3,106 @@
     max-width: 30%;
     height: auto;
   }
+
+  .phone {
+    text-align:center;
+    color:#5e5e5e;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+
+
+  }
+  .footer-distributed{
+	box-shadow: 0 1px 1px 0 #dfdede;
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align:center;
+
+	padding: 50px 20px ;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-company-name{
+	color:#5e5e5e;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 10px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color:rgb(121, 121, 121);
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
