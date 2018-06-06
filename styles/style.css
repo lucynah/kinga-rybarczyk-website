@@ -1,19 +1,30 @@
 .img-fluid {
-    margin-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     max-width: 30%;
     height: auto;
   }
 
-  .phone {
+.img-pic {
+   max-width: 100%;
+    max-height: 100%;
+}
+
+.phone {
     text-align:center;
     color:#5e5e5e;
     font-size: 14px;
     display: inline-block;
     margin-top: 10px;
-
-
   }
-  .footer-distributed{
+.navbar-nav {
+    margin-bottom:40px;
+}
+.nav-link {
+    width: 200%;
+}
+
+.footer-distributed {
 	box-shadow: 0 1px 1px 0 #dfdede;
 	box-sizing: border-box;
 	width: 100%;
@@ -25,7 +36,7 @@
 	overflow: hidden;
 }
 
-.footer-distributed .footer-company-name{
+.footer-distributed .footer-company-name {
 	color:#5e5e5e;
 	font-size: 14px;
 	font-weight: normal;
@@ -35,7 +46,7 @@
 /* Footer social icons */
 
 .footer-distributed .footer-icons{
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .footer-distributed .footer-icons a{
@@ -54,7 +65,6 @@
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 1000px) {
 
